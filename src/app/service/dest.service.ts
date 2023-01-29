@@ -9,7 +9,7 @@ export class DestService {
 
   constructor(private http:HttpClient) { }
 
-  apiurl='https://localhost:44308/Designation'
+  apiurl='https://localhost:44386/Designation'
   GetAll():Observable<object>{
     return this.http.get(this.apiurl);
   }

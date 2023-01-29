@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class EmployeeService {
-apiurl_des='https://localhost:44308/Designation'
-apiurl='https://localhost:44308/Employee'
+apiurl_des='https://localhost:44386/Designation'
+apiurl='https://localhost:44386/Employee'
   constructor(private http:HttpClient) { 
 
   }
